@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace AngularJSAuthentication.API
+namespace AngularJSAuthentication.API.Entities
 {
-    public class UserModel
+    public class Client
     {
     }
 }
