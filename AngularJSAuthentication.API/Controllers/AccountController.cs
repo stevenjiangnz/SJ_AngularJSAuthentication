@@ -33,6 +33,13 @@ namespace AngularJSAuthentication.API.Controllers
             _repo = new AuthRepository();
         }
 
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("Test")]
+        public string Test() {
+            return "in Test";
+        }
+
         // POST api/Account/Register
         [AllowAnonymous]
         [Route("Register")]
